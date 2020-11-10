@@ -9,7 +9,10 @@ const Coin = ({ name, image, symbol, price, volume }) => {
           <h1>{name}</h1>
           <p className='coin-symbol'>{symbol}</p>          
         </div>
-        
+        <div className='coin-data'>
+          <p className='coin-price'>${price}</p>
+          <p className='coin-volume'>${volume.toLocalString()}</p>
+        </div>
       </div>      
     </div>
   )

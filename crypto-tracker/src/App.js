@@ -18,7 +18,7 @@ function App() {
       .catch((error) => alert("You fucked up"));
   }, []);
 
-  const handleChange = (e) => {
+  const handleChange = e => {
     setSearch(e.target.value);
   };
 
