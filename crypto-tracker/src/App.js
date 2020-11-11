@@ -18,7 +18,7 @@ function App() {
       .catch((error) => alert("You fucked up"));
   }, []);
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     setSearch(e.target.value);
   };
 
@@ -39,16 +39,18 @@ function App() {
           />
         </form>
       </div>
-      {filteredCoins.map(coin => {
+      {filteredCoins.map((coin) => {
         return (
-          <Coin 
+          <Coin
             key={coin.id}
             name={coin.name}
             image={coin.image}
-            
+            symbol={coin.symbol}
+            volume={coin.market_cap}
+            price={coin.current_price}
           />
-        )
-      })}      
+        );
+      })}
     </div>
   );
 }
