@@ -5,3 +5,4 @@
 5. Biggest blockers have been mentally wrapping their heads around the large scope with relatively short time frame. Getting past that and just starting on the work.
 6. Don't think there's a need to zoom. 
 BONUS: I have instructed the team, if they can't finish their components today, to begin focusing on good inline comments and creating a new section in the repo's readme for "Known Bugs" or "Work in Progress". The feeling is that we really DO want to set the next team up for success.
+Where in the world is Carmen San Diego?
