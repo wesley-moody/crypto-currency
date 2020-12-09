@@ -31,6 +31,7 @@ function App() {
       <div className='coin-search'>
         <h1 className='coin-text'>Search a Currency</h1>
         <p>Check each one individually</p>
+        
         <form>
           <input
             type='text'
